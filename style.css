@@ -102,6 +102,16 @@ body{
 .other-price .boxed-btn {
     margin-top: 30px;
 }
+.boxed-btn:hover {
+    background: #fff;
+    color: #FF5959;
+}
 
+.boxed-btn {
+    transition: .3s;
+}
+.other-price .boxed-btn:hover {
+    background: #333;
+}
 
 
