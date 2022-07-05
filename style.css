@@ -1,3 +1,107 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.header-area{
+    background-image: url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: table;
+}
+.header-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 16px;
+}
+
+.header-text h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.header-area {
+    position: relative;
+    z-index: 1;
+}
+
+.header-area:before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: #333;
+    content: "";
+    opacity: .5;
+    z-index: -1;
+}
+.boxed-btn {
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    background: #FF5959;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    display: inline-block;
+}
+.donate-details {
+    text-align: center;
+}
+
+.donate-details h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+}
+
+.donate-price-area {
+    color: #747474;
+}
+.donate-price-area {
+    margin-top: 80px;
+}
+
+.price-lists {
+    display: flex;
+    margin-left: 22%;
+    margin-right: 10%;
+    margin-top: 40px;
+}
+
+.single-price-box {width: 12%;text-align: center;background: #FAFAFA;margin-right: 20px;padding: 5px 10px;transition: .3s;border: 2px solid #FAFAFA;}
+
+.single-price-box h3 {
+    font-size: 24px;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.single-price-box:hover h3 {
+    color: #FF5959;
+}
+
+.single-price-box:hover {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+.other-price input {
+    border: none;
+}
+
+.donate-price-area input {border-bottom: 1px solid #d1c8c8;width: 55%;text-align: center;font-size: 14px;margin-top: 50px;padding-bottom: 18px;color: #b1a7a7;}
+
+.other-price {
+    text-align: center;
+}
+
+.other-price .boxed-btn {
+    margin-top: 30px;
+}
+
+
+
