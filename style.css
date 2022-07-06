@@ -203,7 +203,7 @@ body{
 
 .email-subsceibtion-area input[type="email"],[type="submit"] {
     border: none;
-    padding: 10px 50px;
+    padding: 15px 50px;
     border-radius: 5px;
 }
 .email-subsceibtion-area input[type="email"] {
