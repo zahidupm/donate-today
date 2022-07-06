@@ -36,7 +36,7 @@ body{
     width: 100%;
     background: #333;
     content: "";
-    opacity: .5;
+    opacity: .7;
     z-index: -1;
 }
 .boxed-btn {
@@ -112,6 +112,39 @@ body{
 }
 .other-price .boxed-btn:hover {
     background: #333;
+}
+.plannig-items {
+    display: flex;
+}
+.plannig-items {
+    margin-left: 5%;
+    margin-right: 3%;
+    padding-top: 30px;
+}
+
+.single-plan-item {
+    width: 33.33%;
+    background: #EDF5F6;
+    margin-right: 2%;
+    border-radius: 5px;
+    padding: 66px 42px;
+}
+
+.icon img {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.single-plan-item.shelter-plan {
+    background: #FFEEEE;
+}
+
+.single-plan-item.education-plan {
+    background: #FFF4D6;
+}
+
+.donate-plan-area {
+    padding: 80px 0;
 }
 
 
