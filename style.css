@@ -146,5 +146,51 @@ body{
 .donate-plan-area {
     padding: 80px 0;
 }
+.single-contributes-itemn {
+    display: flex;
+}
+
+.contributes-area {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.contributes-details h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+.contributes-details {
+    width: 50%;
+}
+
+.contributes-img {
+    width: 50%;
+}
+
+.contributes-img img {
+    width: 450px;
+    height: 500px;
+}
+.contributes-details.left-text {
+    padding-right: 70px;
+}
+.single-contributes-itemn {
+    padding: 30px 0;
+}
+
+.contributes-img img {
+    border-radius: 5px;
+}
+
+.contributes-details h1 {
+    padding-top: 10px;
+}
+.right-side .contributes-details {
+    padding-left: 52px;
+    padding-top: 15px;
+}
+
+.contributes-details.left-text {
+    padding-top: 20px;
+}
 
 
